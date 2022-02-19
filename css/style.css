@@ -5,7 +5,7 @@ html {
 }
 body {
   color: #050507;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-weight: 300;
 }
 a {
@@ -103,36 +103,6 @@ Gallery
 }
 
 /*-------------------------------------------
-Access
--------------------------------------------*/
-#access {
-  margin-bottom: 480px;
-  position: relative;
-  z-index: 20;
-}
-#access .place {
-  font-size: 1.75rem;
-  font-weight: 400;
-  margin-bottom: 20px;
-}
-#access .address {
-  margin-bottom: 20px;
-}
-#access .contact {
-  margin-bottom: 30px;
-}
-#access .btn {
-  border: solid 1px #fff;
-  color: #fff;
-  display: inline-block;
-  padding: 15px 82px;
-  transition: 0.3s;
-}
-#access .btn:hover {
-  background-color: #050507;
-}
-
-/*-------------------------------------------
 Contact
 -------------------------------------------*/
 #contact {
@@ -155,7 +125,7 @@ Button Arrow
 */
 #contact .btn::before,
 #contact .btn::after {
-  content: '';
+  content: "";
   position: absolute;
   right: -40px;
   height: 1px;
