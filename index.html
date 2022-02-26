@@ -83,8 +83,81 @@
         <!-- Contact -->
         <section id="contact" class="wrapper">
           <h2 class="section-title">CONTACT</h2>
-          <a class="btn" href="#">出展に関するお問い合わせ</a>
-          <a class="btn" href="#">その他のお問い合わせ</a>
+          <form
+            action="https://script.google.com/macros/s/AKfycbzfPD6LJMpN0BzCeHlipl7EXlmDodbFbkbX2RPb9qkROQ2h5uCSClScD436zTTOiOCj/exec"
+            method="POST"
+          >
+            <dl style="margin: 30px">
+              <dt style="font-size: 18px">お名前</dt>
+              <dd>
+                <input
+                  id="name"
+                  type="text"
+                  name="yourname"
+                  style="
+                    border: 1px #d8d8d8 solid;
+                    border-radius: 5px;
+                    padding: 5px;
+                    width: 400px;
+                    background-color: #fff;
+                  "
+                />
+              </dd>
+            </dl>
+            <dl style="margin: 30px">
+              <dt style="font-size: 18px">メールアドレス</dt>
+              <dd>
+                <input
+                  id="mail"
+                  type="text"
+                  name="yourmail"
+                  style="
+                    border: 1px #d8d8d8 solid;
+                    border-radius: 5px;
+                    padding: 5px;
+                    width: 400px;
+                    background-color: #fff;
+                  "
+                />
+              </dd>
+            </dl>
+            <dl style="margin: 30px">
+              <dt style="font-size: 18px">電話番号</dt>
+              <dd>
+                <input
+                  id="phone"
+                  type="text"
+                  name="yourphone"
+                  style="
+                    border: 1px #d8d8d8 solid;
+                    border-radius: 5px;
+                    padding: 5px;
+                    width: 400px;
+                    background-color: #fff;
+                  "
+                />
+              </dd>
+            </dl>
+            <dl style="margin: 30px">
+              <dt style="font-size: 18px">お問い合わせ内容</dt>
+              <dd>
+                <textarea
+                  id="content"
+                  name="content"
+                  style="
+                    border: 1px #d8d8d8 solid;
+                    border-radius: 5px;
+                    padding: 20px;
+                    width: 400px;
+                    background-color: #fff;
+                  "
+                ></textarea>
+              </dd>
+            </dl>
+            <!-- <div class="button"> -->
+            <button type="submit" style="font-size: 18px">送信</button>
+            <!-- </div> -->
+          </form>
         </section>
       </main>
     </div>
