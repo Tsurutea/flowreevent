@@ -162,10 +162,27 @@ form dl dt {
   float: left;
 }
 
+.contact-btn {
+  font-size: 18px;
+  border: solid 1px #d8d8d8;
+  background-color: #eee;
+  color: #999;
+  padding: 10px 30px;
+  border-radius: 15px;
+}
+
+.contact-btn:hover {
+  color: #fff;
+  background-color: #999;
+  transition: 0.5s;
+  border: 1px #999 solid;
+  b
+}
+
 /*
 Button Arrow
 */
-#contact .btn::before,
+/* #contact .btn::before,
 #contact .btn::after {
   content: "";
   position: absolute;
@@ -189,4 +206,4 @@ Button Arrow
 #contact .btn:hover::before,
 #contact .btn:hover::after {
   right: -50px;
-}
+} */
