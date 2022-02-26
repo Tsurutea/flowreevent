@@ -75,6 +75,8 @@ Information
   background-color: black;
   color: white;
   text-align: center;
+  width: 1200px;
+  margin: 0 auto;
 }
 
 .txt_area {
