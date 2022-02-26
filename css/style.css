@@ -72,10 +72,10 @@ Information
   padding: 24px 0;
   font-size: 30px;
   font-weight: 400;
-  background-color: black;
+  background-color: #555;
   color: white;
   text-align: center;
-  width: 1200px;
+  width: 100vw;
   margin: 0 auto;
 }
 
@@ -104,7 +104,6 @@ Information
 
 .txt_area .place .tit {
   font-size: 46px;
-  font-weight: 500;
   padding-bottom: 12px;
 }
 /*
@@ -164,7 +163,6 @@ form dl dt {
 
 .contact-btn {
   font-size: 18px;
-  border: solid 1px #d8d8d8;
   background-color: #eee;
   color: #555;
   padding: 10px 30px;
@@ -175,35 +173,4 @@ form dl dt {
   color: #fff;
   background-color: #999;
   transition: 0.5s;
-  border: 1px #999 solid;
-  b
 }
-
-/*
-Button Arrow
-*/
-/* #contact .btn::before,
-#contact .btn::after {
-  content: "";
-  position: absolute;
-  right: -40px;
-  height: 1px;
-  background-color: #fff;
-  transition: 0.3s;
-}
-#contact .btn::before {
-  width: 120px;
-  top: 48px;
-}
-#contact .btn::after {
-  width: 15px;
-  top: 45px;
-  transform: rotate(25deg);
-}
-#contact .btn:hover {
-  opacity: 0.7;
-}
-#contact .btn:hover::before,
-#contact .btn:hover::after {
-  right: -50px;
-} */
