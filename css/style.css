@@ -65,15 +65,15 @@ Information
 -------------------------------------------*/
 
 .cont img {
-  width: 100vw;
+  width: 90vw;
   height: auto;
 }
 
 .cont h1 {
   padding: 24px 0;
   font-size: 30px;
-  font-weight: 300;
-  background-color: #000;
+  font-weight: 400;
+  background-color: black;
   color: white;
   text-align: center;
 }
@@ -82,8 +82,8 @@ Information
   display: flex;
   font-size: 28px;
   padding-top: 40px;
-  padding-left: 50px;
-  flex: 1;
+  padding-left: 230px;
+	margin-bottom: 80px;
 }
 
 .txt_area .day {
