@@ -81,10 +81,13 @@ Information
 
 .txt_area {
   display: flex;
+	justify-content: center;
+	align-items: center;
   font-size: 28px;
   padding-top: 40px;
-  padding-left: 230px;
-  margin-bottom: 80px;
+	padding-bottom: 80px;
+/*  padding-left: 50px;*/
+  
 }
 
 .txt_area .day {
